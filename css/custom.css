@@ -1,4 +1,29 @@
 .myCenter {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: auto;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+p.dateInfo {
+  color: gray;
+  size: 1em;
+  margin: auto;
 }
