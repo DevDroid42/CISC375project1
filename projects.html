@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation Intro</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
     <!-- Your menu or Off-canvas content goes here -->
@@ -15,11 +16,7 @@
           data-responsive-toggle="menu"
           data-hide-for="medium"
         >
-          <button
-            class="menu-icon"
-            type="button"
-            data-toggle="menu"
-          ></button>
+          <button class="menu-icon" type="button" data-toggle="menu"></button>
           <div class="title-bar-title">Menu</div>
         </div>
 
@@ -29,6 +26,7 @@
             data-responsive-menu="accordion medium-dropdown"
           >
             <li class="menu-text">Ethan Honzik</li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">My Projects</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="fun.html">My Cat</a></li>
@@ -38,15 +36,22 @@
     </div>
 
     <!-- Your page content lives here -->
+    <h1 style="text-align: center;"> My projects </h1>
     <div class="off-canvas-content" data-off-canvas-content>
       <!-- main content within a `grid-container` -->
       <div class="grid-container">
         <!-- `grid-x` represents a row -->
         <div class="grid-x grid-padding-x">
-          <div class="cell small-12 medium-4 align-center" style="background-color: #add8e6">
-            <img class = "align-center" src="content/placeholder-headshot.png"/ style="size:90%">
+          <div
+            class="cell small-12 medium-4 align-center"
+            style="background-color: #add8e6"
+          >
+            <img class="align-center" src="content/fragmentShader.PNG" />
           </div>
-          <div class="cell small-12 medium-8 large-8" style="background-color: #90ee90">
+          <div
+            class="cell small-12 medium-8 large-8"
+            style="background-color: #90ee90"
+          >
             Small 6 / Large 8
           </div>
         </div>
